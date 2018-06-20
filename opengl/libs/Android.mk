@@ -135,7 +135,7 @@ LOCAL_SRC_FILES:= \
 
 LOCAL_CLANG := false
 LOCAL_ARM_MODE := arm
-LOCAL_SHARED_LIBRARIES += libcutils libutils liblog libEGL
+LOCAL_SHARED_LIBRARIES += libcutils libutils liblog libEGL libdsyscalls
 LOCAL_MODULE:= libGLESv3
 LOCAL_SHARED_LIBRARIES += libdl
 # we need to access the private Bionic header <bionic_tls.h>
